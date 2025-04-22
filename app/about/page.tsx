@@ -67,7 +67,7 @@ export default function About() {
       style={{ paddingTop: `${navbarHeight}px` }}
       className="relative min-h-screen w-full"
     >
-      <div className="opacity-30">
+      <div>
         <Particles />
       </div>
 
