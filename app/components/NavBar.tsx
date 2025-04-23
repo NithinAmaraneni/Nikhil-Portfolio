@@ -16,7 +16,7 @@ const Navbar = () => {
     { href: "/about", label: "About Me" },
     { href: "/resume", label: "Resume" },
     { href: "/projects", label: "Projects" },
-    { href: "/certifications", label: "Certifications" },
+    { href: "/certifications", label: "Certificates" },
     { href: "/contact", label: "Contact" },
   ];
 
@@ -28,7 +28,7 @@ const Navbar = () => {
           <div className="flex-shrink-0 flex items-center">
             <Link href="/" className="font-bold text-3xl text-black">
               <span className="flex items-center">
-                IK ■
+                SK ■
               </span>
             </Link>
           </div>

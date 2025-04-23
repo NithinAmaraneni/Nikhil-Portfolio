@@ -48,37 +48,37 @@ export default function Resume() {
       degree: "Computer Science and Engineering",
       duration: "2022 – Current",
       location: "Jalandhar, Punjab",
-      grade: "CGPA: 6.94",
+      grade: "CGPA: 6.56",
       logo: "/logos/LPU.jpeg"  // Add your LPU logo here
     },
     {
-      institution: "Andhra Loyola College",
+      institution: "Narayana College",
       degree: "12th MPC-Math, Physics, Chemistry",
       duration: "2020 – 2022",
       location: "Vijayawada, Andhra Pradesh",
-      grade: "Percentage: 68.40%",
-      logo: "/logos/loyola-logo.png"  // Add your Narayana logo here
+      grade: "Percentage: 75.60%",
+      logo: "/logos/Narayana.png"  // Add your Narayana logo here
     },
     {
-      institution: "ZPH School Ramavarappadu",
+      institution: "Narayana Group Of Schools",
       degree: "State Board",
       duration: "2019 – 2020",
       location: "Vijayawada, Andhra Pradesh",
-      grade: "CGPA: 10",
-      logo: "/logos/school.png"  // Add your Narayana logo here
+      grade: "Percentage: 98.56%",
+      logo: "/logos/Narayana.png"  // Add your Narayana logo here
     }
   ];
 
   const trainings: Training[] = [
     {
-      title: "DSA using C++ Training",
+      title: "Cyber Security and Ethical Hacking Training",
       organization: "BoardInfinity",
       duration: "June 2024 - July 2024",
       points: [
-        "Implemented core data structures (arrays, stacks, trees) in C++.",
-        "Solved algorithmic problems with sorting, searching, and graph techniques.",
-        "Optimized algorithms using Big-O analysis.",
-        "Applied DSA concepts to real-world problem-solving."
+        "Gained hands-on experience with ethical hacking tools and techniques.",
+        "Explored key areas including network security, penetration testing, and vulnerability assessment..",
+        "Learned to identify and mitigate common cyber threats and attack vectors.",
+        "Applied cybersecurity concepts to secure systems and perform ethical hacking simulations."
       ],
       logo: "/logos/gfg.jpeg"  // Add your GeeksForGeeks logo here
     }
@@ -89,19 +89,13 @@ export default function Resume() {
       title: "General CV",
       description: "Complete professional profile with all skills and experiences",
       icon: <FiDownload />,
-      file: "/CV/12204083_general_CV.pdf"
+      file: "/CV/General_sumitesh.docx"
     },
     {
-      title: "Cloud & DevOps Engineer CV",
+      title: "Speceialized CV",
       description: "Specialized CV highlighting Cloud & DevOps skills",
       icon: <FiCode />,
-      file: "/CV/MERN.pdf"
-    },
-    {
-      title: "Salesforce Admin CV",
-      description: "Focused on Salesforce CRM expertise",
-      icon: <FiAward />,
-      file: "/CV/ML.pdf"
+      file: "/CV/Speceialized_sumitesh.docx"
     }
   ];
 

@@ -9,11 +9,7 @@ import {
   SiGithub,
   SiNodedotjs,
   SiPython,
-  SiAmazon,
-  SiSalesforce,
-  SiKubernetes,
   SiDocker,
-  SiTerraform,
   SiCplusplus,
   SiMysql,
 } from "react-icons/si";
@@ -93,9 +89,9 @@ export default function About() {
                   }}
                 />
               </div>
-              <h3 className="mt-4 font-medium text-lg">Bejjipuram Indra Kumar</h3>
+              <h3 className="mt-4 text-black font-medium text-lg">Kammela Sumitesh Kumar</h3>
               <p className="text-gray-600 text-center">
-                Cloud & DevOps Engineer
+                Cyber & Full Stack Engineer
               </p>
             </div>
           </GridItem>
@@ -118,6 +114,58 @@ export default function About() {
                   animation: "animate-float-1",
                   bubbleColor: "bg-orange-50",
                 },
+                {
+                  name: "autopsy",
+                  icon: (
+                    <img
+                      src="/icons/autopsy-logo.svg"
+                      alt="autopsy"
+                      className="w-6 h-6 md:w-8 md:h-8"
+                    />
+                  ),
+                  position: "top-10 left-98",
+                  animation: "animate-float-1",
+                  bubbleColor: "bg-orange-50",
+                },
+                {
+                  name: "aircrack",
+                  icon: (
+                    <img
+                      src="/icons/aircrack-ng-logo.svg"
+                      alt="aircrack"
+                      className="w-6 h-6 md:w-8 md:h-8"
+                    />
+                  ),
+                  position: "top-30 left-160",
+                  animation: "animate-float-2",
+                  bubbleColor: "bg-orange-50",
+                },
+                {
+                  name: "metasploit",
+                  icon: (
+                    <img
+                      src="/icons/metasploit-framework-logo.svg"
+                      alt="metasploit"
+                      className="w-6 h-6 md:w-8 md:h-8"
+                    />
+                  ),
+                  position: "top-10 left-170",
+                  animation: "animate-float-4",
+                  bubbleColor: "bg-orange-50",
+                },
+                {
+                  name: "nmap",
+                  icon: (
+                    <img
+                      src="/icons/nmap-logo.svg"
+                      alt="nmap"
+                      className="w-6 h-6 md:w-8 md:h-8"
+                    />
+                  ),
+                  position: "top-10 left-6",
+                  animation: "animate-float-1",
+                  bubbleColor: "bg-orange-50",
+                },                
                 {
                   name: "CSS3",
                   icon: (
@@ -142,6 +190,19 @@ export default function About() {
                     <SiJavascript className="text-yellow-400 text-2xl md:text-3xl" />
                   ),
                   position: "top-6 left-80",
+                  animation: "animate-float-4",
+                  bubbleColor: "bg-yellow-50",
+                },
+                {
+                  name: "nikto",
+                  icon: (
+                    <img
+                      src="/icons/nikto-logo.svg"
+                      alt="nmap"
+                      className="w-6 h-6 md:w-8 md:h-8"
+                    />
+                  ),
+                  position: "top-40 left-80",
                   animation: "animate-float-4",
                   bubbleColor: "bg-yellow-50",
                 },
@@ -173,42 +234,6 @@ export default function About() {
                   bubbleColor: "bg-yellow-50",
                 },
                 {
-                  name: "AWS",
-                  icon: (
-                    <SiAmazon className="text-orange-500 text-2xl md:text-3xl" />
-                  ),
-                  position: "top-36 left-72",
-                  animation: "animate-float-3",
-                  bubbleColor: "bg-orange-50",
-                },
-                {
-                  name: "Kubernetes",
-                  icon: (
-                    <SiKubernetes className="text-blue-500 text-2xl md:text-3xl" />
-                  ),
-                  position: "top-10 left-110",
-                  animation: "animate-float-3",
-                  bubbleColor: "bg-blue-50",
-                },
-                {
-                  name: "Salesforce",
-                  icon: (
-                    <SiSalesforce className="text-sky-400 text-2xl md:text-3xl" />
-                  ),
-                  position: "top-10 left-153",
-                  animation: "animate-float-3",
-                  bubbleColor: "bg-sky-50",
-                },
-                {
-                  name: "Azure",
-                  icon: (
-                    <FaMicrosoft className="text-blue-600 text-2xl md:text-3xl" />
-                  ),
-                  position: "top-16 left-90",
-                  animation: "animate-float-3",
-                  bubbleColor: "bg-blue-100",
-                },
-                {
                   name: "Docker",
                   icon: (
                     <SiDocker className="text-blue-400 text-2xl md:text-3xl" />
@@ -218,20 +243,11 @@ export default function About() {
                   bubbleColor: "bg-blue-50",
                 },
                 {
-                  name: "Terraform",
-                  icon: (
-                    <SiTerraform className="text-purple-500 text-2xl md:text-3xl" />
-                  ),
-                  position: "top-30 left-166",
-                  animation: "animate-float-4",
-                  bubbleColor: "bg-purple-50",
-                },
-                {
                   name: "C++",
                   icon: (
                     <SiCplusplus className="text-blue-700 text-2xl md:text-3xl" />
                   ),
-                  position: "top-20 left-140",
+                  position: "top-10 left-140",
                   animation: "animate-float-3",
                   bubbleColor: "bg-blue-50",
                 },
@@ -280,37 +296,37 @@ export default function About() {
                 </p>
               </div>
               <div className="border-l-4 border-green-500 pl-3">
-                <h4 className="font-medium">Legal ChatBot</h4>
-                <p className="text-sm text-gray-600">OnDemand API, React</p>
+                <h4 className="font-medium">Keylogger Detection and Prevention Too</h4>
+                <p className="text-sm text-gray-600">Python,  PyQt , windows API, C++</p>
               </div>
             </div>
           </GridItem>
 
           {/* Full Stack */}
           <GridItem
-            title="Cloud & DevOps Engineer"
+            title="Cyber & Full Stack Engineer"
             link="/career"
             className="md:col-span-6 md:row-span-1"
           >
             <div className="space-y-3">
               <p className="text-gray-700">
-              Designing and automating scalable cloud infrastructure and CI/CD pipelines to power modern applications and intelligent systems.
+              Developing secure, high-performance full-stack applications while implementing robust cybersecurity practices to safeguard systems and data.
               </p>
               <div className="flex flex-wrap gap-2">
                 <span className="px-3 py-1 bg-gray-200 text-gray-800 rounded-full text-sm">
-                  AWS
+                  Nmap
                 </span>
                 <span className="px-3 py-1 bg-gray-200 text-gray-800 rounded-full text-sm">
                   Docker
                 </span>
                 <span className="px-3 py-1 bg-gray-200 text-gray-800 rounded-full text-sm">
-                  Kubernetes
+                  React
                 </span>
                 <span className="px-3 py-1 bg-gray-200 text-gray-800 rounded-full text-sm">
-                  Terraform
+                  Autopsy
                 </span>
                 <span className="px-3 py-1 bg-gray-200 text-gray-800 rounded-full text-sm">
-                  DevOps
+                  Aircrack
                 </span>
               </div>
             </div>
@@ -318,30 +334,39 @@ export default function About() {
 
           {/* Certifications */}
           <GridItem
-            title="Certifications"
+            title="Certificates"
             link="/certifications"
             className="md:col-span-3 md:row-span-1"
           >
             <div className="space-y-3">
               <div className="flex items-center gap-3 bg-gray-100 p-3 rounded">
                 <img
-                  src="/logos/microsoft-logo.webp"
+                  src="/logos/swayam_logo.png"
                   alt="GeeksforGeeks"
                   className="w-8 h-8"
                 />
                 <div>
                   <div className=" text-black">
-                    <h4 className="font-medium">Azure Administrator Associate</h4>
-                    <p className="text-xs text-gray-600">Microsoft</p>
+                    <h4 className="font-medium">Introduction To Internet Of Things</h4>
+                    <p className="text-xs text-gray-600">NPTEL</p>
                   </div>
                 </div>
               </div>
               <div className="flex items-center gap-3 bg-gray-100 p-3 rounded">
-                <img src="/logos/salesforce.png" alt="Udemy" className="h-8" />
+                <img src="/logos/download.svg" alt="Udemy" className="h-8 w-8" />
                 <div>
                   <div className=" text-black">
-                    <h4 className="font-medium">AI Associate</h4>
-                    <p className="text-xs text-gray-600">Salesforce</p>
+                    <h4 className="font-medium">Generative and Artificial Intelligence</h4>
+                    <p className="text-xs text-gray-600">Coursera</p>
+                  </div>
+                </div>
+              </div>
+              <div className="flex items-center gap-3 bg-gray-100 p-3 rounded">
+                <img src="/logos/download.svg" alt="Udemy" className="h-8 w-8" />
+                <div>
+                  <div className=" text-black">
+                    <h4 className="font-medium">Design and Analysis Of Algorithms</h4>
+                    <p className="text-xs text-gray-600">Coursera</p>
                   </div>
                 </div>
               </div>

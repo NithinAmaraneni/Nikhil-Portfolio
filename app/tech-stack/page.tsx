@@ -61,13 +61,15 @@ export default function TechStack() {
       ]
     },
     {
-      name: "DevOps",
+      name: "Cyber Tools",
       icon: <FiDatabase />,
       technologies: [
         { name: "Docker", icon: "/tech-icons/docker.svg" },
-        { name: "CI/CD", icon: "/tech-icons/cicd.svg" },
-        { name: "Terraform", icon: "/tech-icons/terraform.svg" },
-        { name: "Kubernetes", icon: "/tech-icons/kubernet.svg" }
+        { name: "Nikto", icon: "/icons/nikto-logo.svg" },
+        { name: "Metasploit", icon: "/icons/metasploit-framework-logo.svg" },
+        { name: "Aircrack", icon: "/icons/aircrack-ng-logo.svg" },
+        { name: "Autopsy", icon: "/icons/autopsy-logo.svg" },
+        { name: "Nmap", icon: "/icons/nmap-logo.svg" },
       ]
     },
     {
@@ -79,15 +81,6 @@ export default function TechStack() {
         { name: "VS Code", icon: "/tech-icons/vscode.svg" }
       ]
     },
-    {
-      name: "Cloud Computing",
-      icon: <FiBox />,
-      technologies: [
-        { name: "AWS", icon: "/tech-icons/aws.svg" },
-        { name: "Azure", icon: "/tech-icons/azure.svg" },
-        { name: "Sales Force", icon: "/tech-icons/salesforce.svg" }
-      ]
-    }
   ];
 
   // Section Card component

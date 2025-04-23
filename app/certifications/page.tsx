@@ -19,25 +19,36 @@ export default function Certifications() {
   const certificates = [
     {
       id: 1,
-      title: "Azure Administrator Associate",
-      issuer: "Microsoft",
-      logo: "/logos/microsoft-logo.webp",
-      image: "/certificates/azure.png",
-      date: "April 2025",
-      skills: ["Azure Identity", "Azure Storage", "Azure Compute", "Azure Monitoring"],
+      title: "Introduction To Internet of Things",
+      issuer: "NPTEL",
+      logo: "/logos/swayam_logo.png",
+      image: "/certificates/", // Add the image path for the certificate here
+      date: "November 2024",
+      skills: ["IoT, Sensors, Microcontrollers, Embedded, Networking"],
       color: "bg-black",
-      url: "https://drive.google.com/file/d/17Efr0QDCN-F6lBNxliS8l9UGju1zeSD7/view?usp=sharing"
+      url: "" // Add the URL for the certificate here
     },
     {
       id: 2,
-      title: "AI Associate",
-      issuer: "Salesforce",
-      logo: "/logos/salesforce.png",
-      image: "/certificates/ai.png",
-      date: "March 2025",
-      skills: ["AI", "Automation", "Analytics", "Personalization"],
+      title: "Generative and Artificial Intelligence",
+      issuer: "Coursera",
+      logo: "/logos/download.svg",
+      image: "/certificates/", // Add the image path for the certificate here
+      date: "March 2024",
+      skills: ["AI", "Generative AI", "Machine Learning", "Deep Learning"],
       color: "bg-black",
-      url: "https://drive.google.com/file/d/1bQHHroZFIzLQRntVSDVjRWw0uJCkmuvR/view?usp=sharing"
+      url: "" // Add the URL for the certificate here
+    },
+    {
+      id: 3,
+      title: "Design and Analysis Of Algorithms",
+      issuer: "Coursera",
+      logo: "/logos/download.svg",
+      image: "/certificates/", // Add the image path for the certificate here
+      date: "March 2024",
+      skills: ["Algorithms", "Data Structures", "Complexity Analysis"],
+      color: "bg-black",
+      url: "" // Add the URL for the certificate here
     },
   
   ];

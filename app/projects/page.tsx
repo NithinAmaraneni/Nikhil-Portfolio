@@ -56,13 +56,13 @@ export default function Projects() {
     },
     {
       id: 3,
-      title: "Legal ChatBot",
-      description: "AI-assisted chatbot that provides preliminary legal information and document preparation guidance.",
-      technologies: ["OnDemand API", "React"],
-      type: "AI",
+      title: "Keylogger Detection and Prevention Tool",
+      description: "A tool to detect and prevent keylogger attacks using machine learning algorithms for enhanced cybersecurity.",
+      technologies: ["Python", "Machine Learning", "Cybersecurity"],
+      type: "Cybersecurity",
       color: "bg-black",
-      github: "https://github.com/DANNE-SANDEEP/legal-chatbot",
-      image: "/images/projects/legal-chatbot.jpg"
+      github: "",// No GitHub link available
+      image: "/images/projects/" // Add appropriate image path
     },
     // You can add more projects here
   ];

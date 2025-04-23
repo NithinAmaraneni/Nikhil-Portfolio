@@ -10,7 +10,7 @@ export default function Contact() {
     name: "",
     email: "",
     subject: "",
-    message: ""
+    message: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitMessage, setSubmitMessage] = useState("");
@@ -24,28 +24,30 @@ export default function Contact() {
     }
   }, []);
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     const { name, value } = e.target;
     setFormState((prev) => ({
       ...prev,
-      [name]: value
+      [name]: value,
     }));
   };
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
+
     // Simulate form submission
     try {
       // In production, replace with actual form submission logic
-      await new Promise(resolve => setTimeout(resolve, 1500));
+      await new Promise((resolve) => setTimeout(resolve, 1500));
       setSubmitMessage("Message sent successfully! I'll get back to you soon.");
       setFormState({
         name: "",
         email: "",
         subject: "",
-        message: ""
+        message: "",
       });
     } catch (error) {
       setSubmitMessage("Something went wrong. Please try again later.");
@@ -67,35 +69,35 @@ export default function Contact() {
     {
       icon: <FiMail />,
       label: "Email",
-      value: "bejjipuramindrakumar@gmail.com",
-      link: "mailto:bejjipuramindrakumar@gmail.com"
+      value: "sumiteshkumar2005@gmail.com",
+      link: "mailto:sumiteshkumar2005@gmail.com",
     },
     {
       icon: <FiPhone />,
       label: "Phone",
-      value: "+91-9030134599",
-      link: "tel:+919030134599"
+      value: "+91-9014347729",
+      link: "tel:+919014347729",
     },
     {
       icon: <FiLinkedin />,
       label: "LinkedIn",
-      value: "linkedin.com/in/bejjipuram",
-      link: "https://www.linkedin.com/in/bejjipuram"
+      value: "linkedin.com/in/sumitesh17",
+      link: "https://www.linkedin.com/in/sumitesh17/",
     },
     {
       icon: <FiGithub />,
       label: "GitHub",
-      value: "github.com/bejjipuram",
-      link: "https://github.com/bejjipuram"
-    }
+      value: "github.com/sumiteshkumar",
+      link: "https://github.com/sumiteshkumar2005/",
+    },
   ];
 
   // Contact Info Card Component
   const ContactInfoCard = ({ info }: { info: ContactInfo }) => {
     return (
-      <a 
-        href={info.link} 
-        target="_blank" 
+      <a
+        href={info.link}
+        target="_blank"
         rel="noopener noreferrer"
         className="flex items-center p-4 bg-transparent backdrop-blur-md border border-black transition-all duration-300 hover:shadow-xl animate-[fadeIn_0.8s_ease-in]"
       >
@@ -120,9 +122,10 @@ export default function Contact() {
           Get In Touch
         </h1>
         <p className="text-lg text-black font-bold mb-10 animate-[fadeIn_0.7s_ease-in]">
-          Have a question or want to work together? Feel free to reach out to me.
+          Have a question or want to work together? Feel free to reach out to
+          me.
         </p>
-        
+
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Contact Info Section */}
           <div className="lg:col-span-1 animate-[fadeIn_0.8s_ease-in]">
@@ -132,22 +135,25 @@ export default function Contact() {
               ))}
             </div>
           </div>
-          
+
           {/* Contact Form Section */}
           <div className="lg:col-span-2 animate-[fadeIn_0.9s_ease-in]">
             <div className="bg-transparent shadow-md overflow-hidden transition-all duration-300 backdrop-blur-md border border-black">
               {/* Colored border on the left side */}
               <div className="absolute left-0 top-0 bottom-0 w-1 bg-black"></div>
-              
+
               <div className="p-6">
                 <h2 className="text-xl md:text-2xl text-black font-bold mb-6 pl-4">
                   Send Me a Message
                 </h2>
-                
+
                 <form onSubmit={handleSubmit} className="pl-4 pr-4">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                     <div>
-                      <label htmlFor="name" className="block text-gray-600 mb-2">
+                      <label
+                        htmlFor="name"
+                        className="block text-gray-600 mb-2"
+                      >
                         Your Name
                       </label>
                       <input
@@ -161,7 +167,10 @@ export default function Contact() {
                       />
                     </div>
                     <div>
-                      <label htmlFor="email" className="block text-gray-600 mb-2">
+                      <label
+                        htmlFor="email"
+                        className="block text-gray-600 mb-2"
+                      >
                         Your Email
                       </label>
                       <input
@@ -175,9 +184,12 @@ export default function Contact() {
                       />
                     </div>
                   </div>
-                  
+
                   <div className="mb-6">
-                    <label htmlFor="subject" className="block text-gray-600 mb-2">
+                    <label
+                      htmlFor="subject"
+                      className="block text-gray-600 mb-2"
+                    >
                       Subject
                     </label>
                     <input
@@ -190,9 +202,12 @@ export default function Contact() {
                       required
                     />
                   </div>
-                  
+
                   <div className="mb-6">
-                    <label htmlFor="message" className="block text-gray-600 mb-2">
+                    <label
+                      htmlFor="message"
+                      className="block text-gray-600 mb-2"
+                    >
                       Message
                     </label>
                     <textarea
@@ -205,7 +220,7 @@ export default function Contact() {
                       required
                     ></textarea>
                   </div>
-                  
+
                   <div className="flex items-center justify-between">
                     <button
                       type="submit"
@@ -215,9 +230,15 @@ export default function Contact() {
                       <FiSend className="mr-2" />
                       {isSubmitting ? "Sending..." : "Send Message"}
                     </button>
-                    
+
                     {submitMessage && (
-                      <p className={`text-sm ${submitMessage.includes("successfully") ? "text-green-600" : "text-red-600"}`}>
+                      <p
+                        className={`text-sm ${
+                          submitMessage.includes("successfully")
+                            ? "text-green-600"
+                            : "text-red-600"
+                        }`}
+                      >
                         {submitMessage}
                       </p>
                     )}

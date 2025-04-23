@@ -29,11 +29,11 @@ export default function Home() {
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
             Hello, I am{" "}
             <span className="inline-block bg-gradient-to-r from-rose-800 via-purple-900 to-gray-900 bg-[length:200%_100%] bg-clip-text text-transparent font-bold animate-shimmer">
-              Bejjipuram Indra Kumar ■
+              Kammela Sumitesh Kumar ■
             </span>
           </h1>
           <p className="text-base sm:text-lg md:text-xl text-gray-700 max-w-2xl mx-auto md:mx-0">
-          Motivated Cloud Engineer with a solid foundation in cloud infrastructure, automation, and DevOps. Eager to contribute to scalable cloud solutions while continually advancing skills in AWS, Azure, and Google Cloud.
+          Motivated Cybersecurity and Full Stack Engineer with a strong foundation in secure application development, system protection, and end-to-end web technologies. Eager to build robust, user-centric solutions while continually advancing skills in modern frameworks and cybersecurity practices.
           </p>
 
           {/* Know More Button with improved hover effect */}
