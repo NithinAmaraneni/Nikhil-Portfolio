@@ -19,12 +19,12 @@ export default function Certifications() {
   const certificates = [
     {
       id: 1,
-      title: "Introduction To Internet of Things",
-      issuer: "NPTEL",
-      logo: "/logos/swayam_logo.png",
-      image: "/certificates/", // Add the image path for the certificate here
+      title: "Cyber Security and Ethical Hacking",
+      issuer: "Board Infinity",
+      logo: "/logos/Board.svg",
+      image: "/certificates/cyber.png", // Add the image path for the certificate here
       date: "November 2024",
-      skills: ["IoT, Sensors, Microcontrollers, Embedded, Networking"],
+      skills: ["System Breech", "Ethical Rules", "Ethical Hacking"],
       color: "bg-black",
       url: "" // Add the URL for the certificate here
     },
@@ -33,7 +33,7 @@ export default function Certifications() {
       title: "Generative and Artificial Intelligence",
       issuer: "Coursera",
       logo: "/logos/download.svg",
-      image: "/certificates/", // Add the image path for the certificate here
+      image: "/certificates/AI.png", // Add the image path for the certificate here
       date: "March 2024",
       skills: ["AI", "Generative AI", "Machine Learning", "Deep Learning"],
       color: "bg-black",
@@ -44,7 +44,7 @@ export default function Certifications() {
       title: "Design and Analysis Of Algorithms",
       issuer: "Coursera",
       logo: "/logos/download.svg",
-      image: "/certificates/", // Add the image path for the certificate here
+      image: "/certificates/DP.png", // Add the image path for the certificate here
       date: "March 2024",
       skills: ["Algorithms", "Data Structures", "Complexity Analysis"],
       color: "bg-black",
@@ -86,7 +86,7 @@ export default function Certifications() {
         </div>
         
         {/* Certificate logo */}
-        <div className="absolute top-4 left-4 z-10 bg-white/80 p-1 rounded-md backdrop-blur-sm shadow-sm">
+        <div className="absolute top-4 left-4 z-10 bg-gray-800 p-1 rounded-md backdrop-blur-sm shadow-sm">
           <div className="w-10 h-10 relative flex items-center justify-center">
             <img
               src={certificate.logo}
