@@ -45,8 +45,7 @@ export default function TechStack() {
         { name: "Python", icon: "/tech-icons/python.svg" },
         { name: "C++", icon: "/tech-icons/cpp.svg" },
         { name: "Java", icon: "/tech-icons/java.svg" },
-        { name: "JavaScript", icon: "/tech-icons/javascript.svg" },
-        { name: "TypeScript", icon: "/tech-icons/typescript.svg" }
+        { name: "JavaScript", icon: "/tech-icons/javascript.svg" }
       ]
     },
     {
@@ -54,22 +53,16 @@ export default function TechStack() {
       icon: <FiLayers />,
       technologies: [
         { name: "HTML", icon: "/tech-icons/html5.svg" },
-        { name: "CSS", icon: "/tech-icons/css3.svg" },
-        { name: "React", icon: "/tech-icons/react.svg" },
-        { name: "Next.js", icon: "/tech-icons/nextjs.svg" },
-        { name: "Tailwind CSS", icon: "/tech-icons/tailwind.svg" }
+        { name: "CSS", icon: "/tech-icons/css3.svg" }
       ]
     },
     {
-      name: "Cyber Tools",
+      name: "Data Science Tools",
       icon: <FiDatabase />,
       technologies: [
-        { name: "Docker", icon: "/tech-icons/docker.svg" },
-        { name: "Nikto", icon: "/icons/nikto-logo.svg" },
-        { name: "Metasploit", icon: "/icons/metasploit-framework-logo.svg" },
-        { name: "Aircrack", icon: "/icons/aircrack-ng-logo.svg" },
-        { name: "Autopsy", icon: "/icons/autopsy-logo.svg" },
-        { name: "Nmap", icon: "/icons/nmap-logo.svg" },
+        { name: "Excel", icon: "/tech-icons/excel.png" },
+        { name: "Tableau", icon: "/tech-icons/Tableau.jpeg" },
+        { name: "Power BI", icon: "/tech-icons/power-bi.png" }
       ]
     },
     {

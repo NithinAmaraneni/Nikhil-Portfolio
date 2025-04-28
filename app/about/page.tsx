@@ -270,7 +270,7 @@ export default function About() {
 
           {/* Full Stack */}
           <GridItem
-            title="Data Sciencce Engineer"
+            title="Data Science Engineer"
             link=""
             className="md:col-span-6 md:row-span-1"
           >
@@ -339,26 +339,29 @@ export default function About() {
             </div>
           </GridItem>
 
-          {/* My Reads */}
+          {/* ACHIEVEMENTS */}
           <GridItem
-            title="My Reads"
-            link="/reads"
-            className="md:col-span-4 md:row-span-1"
+          title="ACHIEVEMENTS"
+          link=""
+          className="md:col-span-4 md:row-span-1"
           >
-            <div className="flex flex-col items-center">
-              <p className="text-gray-700 mb-4 text-center">
-                Explore the books shaping my perspectives.
-              </p>
-              <div className="bg-gray-100 p-3 rounded w-32 h-40 flex items-center justify-center">
-                <p className="text-center font-medium">Atomic Habits</p>
+            <div className="flex flex-col items-center space-y-4">
+              <div className="bg-gray-100 p-4 rounded w-full">
+                <h3 className="text-lg font-semibold text-center text-black">
+                  Secured All India Rank 4302 in JEE Advanced 2022
+                </h3>
+              </div>
+              <div className="bg-gray-100 p-4 rounded w-full">
+                <h3 className="text-lg font-semibold text-center text-black">
+                  District-Level Kabaddi Cup Winner (2019)
+                </h3>
               </div>
             </div>
           </GridItem>
-
           {/* Beyond the Code */}
           <GridItem
             title="Beyond the Code"
-            link="/hobbies"
+            link=""
             className="md:col-span-8 md:row-span-1"
           >
             <div>
@@ -367,12 +370,9 @@ export default function About() {
               </p>
               <div className="flex flex-wrap gap-2">
                 {[
-                  { name: "Painting", icon: "🎨" },
-                  { name: "Photography", icon: "📸" },
                   { name: "Gaming", icon: "🎮" },
                   { name: "Hiking", icon: "🥾" },
                   { name: "Music", icon: "🎵" },
-                  { name: "Fitness", icon: "💪" },
                   { name: "Reading", icon: "📚" },
                 ].map((hobby) => (
                   <span
