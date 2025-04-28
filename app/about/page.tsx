@@ -300,7 +300,7 @@ export default function About() {
 
           {/* Certifications */}
           <GridItem
-            title="Certificates"
+            title="Certifications"
             link="/certifications"
             className="md:col-span-3 md:row-span-1"
           >
@@ -313,7 +313,7 @@ export default function About() {
                 />
                 <div>
                   <div className=" text-black">
-                    <h4 className="font-medium">cloud computing</h4>
+                    <h4 className="font-medium">Cloud Computing</h4>
                     <p className="text-xs text-gray-600">NPTEL</p>
                   </div>
                 </div>
@@ -341,7 +341,7 @@ export default function About() {
 
           {/* ACHIEVEMENTS */}
           <GridItem
-          title="ACHIEVEMENTS"
+          title="Achievements"
           link=""
           className="md:col-span-4 md:row-span-1"
           >
