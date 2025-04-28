@@ -69,26 +69,26 @@ export default function Contact() {
     {
       icon: <FiMail />,
       label: "Email",
-      value: "sumiteshkumar2005@gmail.com",
-      link: "mailto:sumiteshkumar2005@gmail.com",
+      value: "nikhilnamabattula@gmail.com",
+      link: "mailto:nikhilnamabattula@gmail.com",
     },
     {
       icon: <FiPhone />,
       label: "Phone",
-      value: "+91-9014347729",
-      link: "tel:+919014347729",
+      value: "+91-9849652136",
+      link: "tel:+919849652136",
     },
     {
       icon: <FiLinkedin />,
       label: "LinkedIn",
-      value: "linkedin.com/in/sumitesh17",
-      link: "https://www.linkedin.com/in/sumitesh17/",
+      value: "linkedin.com/in/Nikhil",
+      link: "https://www.linkedin.com/in/nikhil-namabattula18",
     },
     {
       icon: <FiGithub />,
       label: "GitHub",
-      value: "github.com/sumiteshkumar",
-      link: "https://github.com/sumiteshkumar2005/",
+      value: "github.com/Nikhil",
+      link: "https://github.com/nikhi14369",
     },
   ];
 

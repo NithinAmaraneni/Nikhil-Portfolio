@@ -29,11 +29,11 @@ export default function Home() {
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
             Hello, I am{" "}
             <span className="inline-block bg-gradient-to-r from-rose-800 via-purple-900 to-gray-900 bg-[length:200%_100%] bg-clip-text text-transparent font-bold animate-shimmer">
-              Kammela Sumitesh Kumar ■
+              Nikhil Namabattula ■
             </span>
           </h1>
           <p className="text-base sm:text-lg md:text-xl text-gray-700 max-w-2xl mx-auto md:mx-0">
-          Motivated Cybersecurity and Full Stack Engineer with a strong foundation in secure application development, system protection, and end-to-end web technologies. Eager to build robust, user-centric solutions while continually advancing skills in modern frameworks and cybersecurity practices.
+          Motivated Data Scientist with a strong foundation in statistical analysis, and data-driven decision making. Eager to extract meaningful insights from complex datasets while continually advancing skills in modern data science tools, AI technologies, and big data frameworks.
           </p>
 
           {/* Know More Button with improved hover effect */}
@@ -54,8 +54,8 @@ export default function Home() {
             {/* Image with backdrop glow effect */}
             <div className="absolute inset-0 bg-blue-500 opacity-0 group-hover:opacity-20 transition-opacity duration-500"></div>
             <img
-              src="/profile.jpg"
-              alt="Sandeep Danne"
+              src="/NN.jpg"
+              alt="Nikhil"
               className="w-full h-full object-cover"
               onError={(e) => {
                 const target = e.target as HTMLImageElement;

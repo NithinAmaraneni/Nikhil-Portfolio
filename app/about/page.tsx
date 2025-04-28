@@ -73,14 +73,14 @@ export default function About() {
           {/* Profile Picture */}
           <GridItem
             title="Profile"
-            link="/profile"
+            link=""
             className="md:col-span-4 md:row-span-1"
           >
             <div className="flex flex-col items-center">
               <div className="w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden border-2 border-blue-300">
                 <img
-                  src="/profile.jpg"
-                  alt="Sandeep Danne"
+                  src="/NN.jpg"
+                  alt="NN"
                   className="w-full h-full object-cover"
                   onError={(e: React.SyntheticEvent<HTMLImageElement, Event>) => {
                     const target = e.target as HTMLImageElement;
@@ -89,9 +89,9 @@ export default function About() {
                   }}
                 />
               </div>
-              <h3 className="mt-4 text-black font-medium text-lg">Kammela Sumitesh Kumar</h3>
+              <h3 className="mt-4 text-black font-medium text-lg">Nikhil Namabattula</h3>
               <p className="text-gray-600 text-center">
-                Cyber & Full Stack Engineer
+                Data Science Engineer
               </p>
             </div>
           </GridItem>
@@ -115,11 +115,11 @@ export default function About() {
                   bubbleColor: "bg-orange-50",
                 },
                 {
-                  name: "autopsy",
+                  name: "Power BI",
                   icon: (
                     <img
-                      src="/icons/autopsy-logo.svg"
-                      alt="autopsy"
+                      src="/icons/power-bi.png"
+                      alt="Power BI"
                       className="w-6 h-6 md:w-8 md:h-8"
                     />
                   ),
@@ -128,11 +128,11 @@ export default function About() {
                   bubbleColor: "bg-orange-50",
                 },
                 {
-                  name: "aircrack",
+                  name: "Visual Studio",
                   icon: (
                     <img
-                      src="/icons/aircrack-ng-logo.svg"
-                      alt="aircrack"
+                      src="/icons/VS.png"
+                      alt="Visual Studio"
                       className="w-6 h-6 md:w-8 md:h-8"
                     />
                   ),
@@ -141,11 +141,11 @@ export default function About() {
                   bubbleColor: "bg-orange-50",
                 },
                 {
-                  name: "metasploit",
+                  name: "Excel",
                   icon: (
                     <img
-                      src="/icons/metasploit-framework-logo.svg"
-                      alt="metasploit"
+                      src="/icons/excel.png"
+                      alt="Excel"
                       className="w-6 h-6 md:w-8 md:h-8"
                     />
                   ),
@@ -154,11 +154,11 @@ export default function About() {
                   bubbleColor: "bg-orange-50",
                 },
                 {
-                  name: "nmap",
+                  name: "Tableau",
                   icon: (
                     <img
-                      src="/icons/nmap-logo.svg"
-                      alt="nmap"
+                      src="/icons/Tableau.jpeg"
+                      alt="Tableau"
                       className="w-6 h-6 md:w-8 md:h-8"
                     />
                   ),
@@ -176,33 +176,11 @@ export default function About() {
                   bubbleColor: "bg-blue-50",
                 },
                 {
-                  name: "React",
-                  icon: (
-                    <SiReact className="text-cyan-500 text-2xl md:text-3xl" />
-                  ),
-                  position: "top-16 left-48",
-                  animation: "animate-float-3",
-                  bubbleColor: "bg-cyan-50",
-                },
-                {
                   name: "JavaScript",
                   icon: (
                     <SiJavascript className="text-yellow-400 text-2xl md:text-3xl" />
                   ),
                   position: "top-6 left-80",
-                  animation: "animate-float-4",
-                  bubbleColor: "bg-yellow-50",
-                },
-                {
-                  name: "nikto",
-                  icon: (
-                    <img
-                      src="/icons/nikto-logo.svg"
-                      alt="nmap"
-                      className="w-6 h-6 md:w-8 md:h-8"
-                    />
-                  ),
-                  position: "top-40 left-80",
                   animation: "animate-float-4",
                   bubbleColor: "bg-yellow-50",
                 },
@@ -214,15 +192,6 @@ export default function About() {
                   position: "top-40 left-33",
                   animation: "animate-float-5",
                   bubbleColor: "bg-gray-50",
-                },
-                {
-                  name: "Node.js",
-                  icon: (
-                    <SiNodedotjs className="text-green-600 text-2xl md:text-3xl" />
-                  ),
-                  position: "top-24 left-60",
-                  animation: "animate-float-3",
-                  bubbleColor: "bg-green-50",
                 },
                 {
                   name: "Python",
@@ -286,47 +255,44 @@ export default function About() {
           >
             <div className="space-y-3 text-black">
               <div className="border-l-4 border-blue-500 pl-3">
-                <h4 className="font-medium">Sign Language Recognition System.</h4>
-                <p className="text-sm text-gray-600">ML, Python, Computer Vision, React</p>
+                <h4 className="font-medium">HR Analytics Dashboard</h4>
+                <p className="text-sm text-gray-600">Power BI, Data Analysis Expressions, Power Query, SQL</p>
               </div>
               <div className="border-l-4 border-purple-500 pl-3">
-                <h4 className="font-medium">Startup Radar</h4>
+                <h4 className="font-medium">Hotel Management Website</h4>
                 <p className="text-sm text-gray-600">
-                  Python, Streamlit, XGBoost, Linear Regression
+                HTML, CSS, JavaScript
+
                 </p>
-              </div>
-              <div className="border-l-4 border-green-500 pl-3">
-                <h4 className="font-medium">Keylogger Detection and Prevention Too</h4>
-                <p className="text-sm text-gray-600">Python,  PyQt , windows API, C++</p>
               </div>
             </div>
           </GridItem>
 
           {/* Full Stack */}
           <GridItem
-            title="Cyber & Full Stack Engineer"
-            link="/career"
+            title="Data Sciencce Engineer"
+            link=""
             className="md:col-span-6 md:row-span-1"
           >
             <div className="space-y-3">
               <p className="text-gray-700">
-              Developing secure, high-performance full-stack applications while implementing robust cybersecurity practices to safeguard systems and data.
+              Developing data-driven, high-performance solutions while implementing robust analytical practices to extract insights, build predictive models, and drive informed decision-making.
               </p>
               <div className="flex flex-wrap gap-2">
                 <span className="px-3 py-1 bg-gray-200 text-gray-800 rounded-full text-sm">
-                  Nmap
+                Tableau
                 </span>
                 <span className="px-3 py-1 bg-gray-200 text-gray-800 rounded-full text-sm">
-                  Docker
+                Hadoop
                 </span>
                 <span className="px-3 py-1 bg-gray-200 text-gray-800 rounded-full text-sm">
-                  React
+                PowerBI
                 </span>
                 <span className="px-3 py-1 bg-gray-200 text-gray-800 rounded-full text-sm">
-                  Autopsy
+                Excel
                 </span>
                 <span className="px-3 py-1 bg-gray-200 text-gray-800 rounded-full text-sm">
-                  Aircrack
+                MySQL
                 </span>
               </div>
             </div>
@@ -347,7 +313,7 @@ export default function About() {
                 />
                 <div>
                   <div className=" text-black">
-                    <h4 className="font-medium">Introduction To Internet Of Things</h4>
+                    <h4 className="font-medium">cloud computing</h4>
                     <p className="text-xs text-gray-600">NPTEL</p>
                   </div>
                 </div>
@@ -356,17 +322,17 @@ export default function About() {
                 <img src="/logos/download.svg" alt="Udemy" className="h-8 w-8" />
                 <div>
                   <div className=" text-black">
-                    <h4 className="font-medium">Generative and Artificial Intelligence</h4>
+                    <h4 className="font-medium">Data Analysis with Tableau</h4>
                     <p className="text-xs text-gray-600">Coursera</p>
                   </div>
                 </div>
               </div>
               <div className="flex items-center gap-3 bg-gray-100 p-3 rounded">
-                <img src="/logos/download.svg" alt="Udemy" className="h-8 w-8" />
+                <img src="/logos/gfg.jpeg" alt="Udemy" className="h-8 w-8" />
                 <div>
                   <div className=" text-black">
-                    <h4 className="font-medium">Design and Analysis Of Algorithms</h4>
-                    <p className="text-xs text-gray-600">Coursera</p>
+                    <h4 className="font-medium">Data Structures and Algorithms</h4>
+                    <p className="text-xs text-gray-600">greeks for greeks</p>
                   </div>
                 </div>
               </div>

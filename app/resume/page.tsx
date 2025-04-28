@@ -48,37 +48,37 @@ export default function Resume() {
       degree: "Computer Science and Engineering",
       duration: "2022 – Current",
       location: "Jalandhar, Punjab",
-      grade: "CGPA: 6.56",
+      grade: "CGPA: 6.58",
       logo: "/logos/LPU.jpeg"  // Add your LPU logo here
     },
     {
-      institution: "Narayana College",
+      institution: "Sri Chaitanya Junior College",
       degree: "12th MPC-Math, Physics, Chemistry",
       duration: "2020 – 2022",
       location: "Vijayawada, Andhra Pradesh",
-      grade: "Percentage: 75.60%",
-      logo: "/logos/Narayana.png"  // Add your Narayana logo here
+      grade: "Percentage: 95.5%",
+      logo: "/logos/SC.jpeg"  // Add your Narayana logo here
     },
     {
-      institution: "Narayana Group Of Schools",
+      institution: "Sri Chaitanya School",
       degree: "State Board",
       duration: "2019 – 2020",
       location: "Vijayawada, Andhra Pradesh",
-      grade: "Percentage: 98.56%",
-      logo: "/logos/Narayana.png"  // Add your Narayana logo here
+      grade: "Percentage: 100%",
+      logo: "/logos/SC.jpeg"  // Add your Narayana logo here
     }
   ];
 
   const trainings: Training[] = [
     {
-      title: "Cyber Security and Ethical Hacking Training",
-      organization: "BoardInfinity",
+      title: "Data Structures and Algorithms",
+      organization: "GeeksForGeeks",
       duration: "June 2024 - July 2024",
       points: [
-        "Gained hands-on experience with ethical hacking tools and techniques.",
-        "Explored key areas including network security, penetration testing, and vulnerability assessment..",
-        "Learned to identify and mitigate common cyber threats and attack vectors.",
-        "Applied cybersecurity concepts to secure systems and perform ethical hacking simulations."
+        "Implemented key DSA concepts such as Linked Lists, Trees, Graphs, Sorting & Searching Algorithms in hands-on coding exercises",
+        "Developed optimized and scalable solutions through project-based learning, showcasing strong analytical and programming skills.",
+        "Gained hands-on experience in solving complex algorithmic challenges, optimizing code efficiency, and implementing realworld problem-solving techniques.",
+        "Built a Tic-Tac-Toe game in C++ using arrays and game logic, demonstrating problem-solving skills."
       ],
       logo: "/logos/gfg.jpeg"  // Add your GeeksForGeeks logo here
     }
@@ -89,13 +89,13 @@ export default function Resume() {
       title: "General CV",
       description: "Complete professional profile with all skills and experiences",
       icon: <FiDownload />,
-      file: "/CV/General_sumitesh.docx"
+      file: "/CV/NN-General-CV.pdf"
     },
     {
       title: "Speceialized CV",
-      description: "Specialized CV highlighting Cloud & DevOps skills",
+      description: "Specialized CV highlighting Data Science skills",
       icon: <FiCode />,
-      file: "/CV/Speceialized_sumitesh.docx"
+      file: "/CV/NN-Specialised-CV.pdf"
     }
   ];
 

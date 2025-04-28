@@ -36,33 +36,23 @@ export default function Projects() {
   const projects: Project[] = [
     {
       id: 1,
-      title: "Sign Language Recognition System",
-      description: "A robust sign language recognition system with real-time gesture detection, language translation, and communication support for enhanced accessibility and interaction.",
-      technologies: ["ML", "Python", "Computer Vision", "React"],
-      type: "Machine Learning",
+      title: "HR Analytics Dashboard",
+      description: "Created a dashboard and placed all important and key insights for HR analytics in the dashboard. Performed graphs and functions on the dataset to get desired outcomes. Helpful to HR professionals and organizational leaders to make data-driven decisions by providing easily accessible insights into key HR metrics. ",
+      technologies: ["Power BI", "Data Analysis Expressions", "Power Query"],
+      type: "Data Science",
       color: "bg-black",
-      github: "https://github.com/bejjipuram/sign_translator",
+      github: "https://github.com/nikhi14369?tab=repositories",
       image: "/images/projects/rentopia.jpg"
     },
     {
       id: 2,
-      title: "Startup Radar",
-      description: "ML-powered platform to analyze and predict startup growth and success rates using funding data and market trends.",
-      technologies: ["Python", "Streamlit", "XGBoost", "Linear Regression"],
-      type: "Machine Learning",
+      title: "Hotel Management Website",
+      description: "Developed a fully functional hotel management website to streamline room booking, customer management, and service tracking. Designed an intuitive front-end interface for a seamless user experience. Implemented JavaScript for interactive features and dynamic content updates. Ensured responsiveness using CSS, enhancing accessibility across devices.",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      type: "Wed development",
       color: "bg-black",
-      github: "https://github.com/DANNE-SANDEEP/StartupRadar",
+      github: "https://github.com/nikhi369/Hotel-Management-websit",
       image: "/images/projects/startup-radar.jpg"
-    },
-    {
-      id: 3,
-      title: "Keylogger Detection and Prevention Tool",
-      description: "A tool to detect and prevent keylogger attacks using machine learning algorithms for enhanced cybersecurity.",
-      technologies: ["Python", "Machine Learning", "Cybersecurity"],
-      type: "Cybersecurity",
-      color: "bg-black",
-      github: "",// No GitHub link available
-      image: "/images/projects/" // Add appropriate image path
     },
     // You can add more projects here
   ];
@@ -175,7 +165,7 @@ export default function Projects() {
       <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 py-12 md:py-16">
         <h1 className="text-3xl font-bold mb-6 text-black animate-[fadeIn_0.6s_ease-in]">Projects</h1>
         <p className="text-lg text-black font-bold mb-6 animate-[fadeIn_0.7s_ease-in]">
-          Explore my Projects of Full-Stack and Machine Learning.
+          Explore my Projects of Data Science.
         </p>
         
         {/* Search and Filter controls */}

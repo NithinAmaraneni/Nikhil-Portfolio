@@ -19,36 +19,36 @@ export default function Certifications() {
   const certificates = [
     {
       id: 1,
-      title: "Cyber Security and Ethical Hacking",
-      issuer: "Board Infinity",
-      logo: "/logos/Board.svg",
-      image: "/certificates/cyber.png", // Add the image path for the certificate here
-      date: "November 2024",
-      skills: ["System Breech", "Ethical Rules", "Ethical Hacking"],
+      title: "Data Analysis with Tableau ",
+      issuer: "Coursera",
+      logo: "/logos/download.svg",
+      image: "/certificates/tableau.png", // Add the image path for the certificate here
+      date: "December 2024",
+      skills: ["Data Analysis and Interpretation", "Tableau Dashboard Design", "Data Visualization Best Practices"],
       color: "bg-black",
-      url: "" // Add the URL for the certificate here
+      url: "https://www.coursera.org/account/accomplishments/certificate/WTJ9I7P9X5RC" // Add the URL for the certificate here
     },
     {
       id: 2,
-      title: "Generative and Artificial Intelligence",
-      issuer: "Coursera",
-      logo: "/logos/download.svg",
-      image: "/certificates/AI.png", // Add the image path for the certificate here
-      date: "March 2024",
-      skills: ["AI", "Generative AI", "Machine Learning", "Deep Learning"],
+      title: "Cloud Computing ",
+      issuer: "NPTEL",
+      logo: "/logos/swayam_logo.png",
+      image: "/certificates/nptel.png", // Add the image path for the certificate here
+      date: "November 2024",
+      skills: ["Cloud Computing Fundamentals", "Cloud Storage Systems", "Virtualization and Resource Management","Cloud Security Fundamentals"],
       color: "bg-black",
-      url: "" // Add the URL for the certificate here
+      url: "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL24CS118S167020170704431712" // Add the URL for the certificate here
     },
     {
       id: 3,
-      title: "Design and Analysis Of Algorithms",
-      issuer: "Coursera",
-      logo: "/logos/download.svg",
-      image: "/certificates/DP.png", // Add the image path for the certificate here
-      date: "March 2024",
-      skills: ["Algorithms", "Data Structures", "Complexity Analysis"],
+      title: "Data Structures and Algorithms - Self-Paced",
+      issuer: "GeeksforGeeks",
+      logo: "/logos/gfg.jpeg",
+      image: "/certificates/DSA.png", // Add the image path for the certificate here
+      date: "July 2024",
+      skills: ["Algorithms", "Data Structures"],
       color: "bg-black",
-      url: "" // Add the URL for the certificate here
+      url: "https://media.geeksforgeeks.org/courses/certificates/6723985bc48818d14f2cdeb8ad600591.pdf" // Add the URL for the certificate here
     },
   
   ];
