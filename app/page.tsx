@@ -33,7 +33,7 @@ export default function Home() {
             </span>
           </h1>
           <p className="text-base sm:text-lg md:text-xl text-gray-700 max-w-2xl mx-auto md:mx-0">
-          Motivated Data Scientist with a strong foundation in statistical analysis, and data-driven decision making. Eager to extract meaningful insights from complex datasets while continually advancing skills in modern data science tools, AI technologies, and big data frameworks.
+          Aspiring Data Analyst with a strong foundation in Computer Science and a passion for turning data into actionable insights. Skilled in SQL, Power BI, and data visualization tools to support informed decision-making and uncover meaningful patterns from complex data.
           </p>
 
           {/* Know More Button with improved hover effect */}
